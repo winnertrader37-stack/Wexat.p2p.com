@@ -1,0 +1,20 @@
+WexatP2P — GitHub upload
+
+1. Open your WexatP2P repository.
+2. Upload the contents of this ZIP into the repository root.
+3. Commit to main.
+4. Go to Settings -> Pages.
+5. Under Build and deployment -> Source select GitHub Actions.
+6. Open Actions and wait for "Deploy WexatP2P frontend" to finish.
+7. The project site will use the GitHub Pages project URL.
+
+Important:
+- GitHub Pages only serves the frontend.
+- Do not upload .env, API secrets, KYC documents or private keys.
+- Deploy backend/ to a Node-compatible server.
+- Set the frontend API base URL after your backend has a public HTTPS URL.
+
+If the repository is winnertrader37-stack/Wexatp2p.et.com, the project Pages URL normally follows:
+https://winnertrader37-stack.github.io/Wexatp2p.et.com/
+
+GitHub Pages can take a little time after deployment.
